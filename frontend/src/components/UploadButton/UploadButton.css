@@ -1,0 +1,16 @@
+.upload-button{
+    background-color: #66B9B8;
+    border: none;
+    color: white;
+    font-weight: 700;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.upload-button:hover {
+    border: 2px solid #66B9B8;
+    color: #66B9B8;
+    background-color: white;
+}

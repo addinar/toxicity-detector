@@ -1,0 +1,31 @@
+.bold {
+    font-weight: 700;
+}
+  
+.semibold {
+    font-weight: 600;
+}
+
+.medium {
+    font-weight: 500;
+    font-size: 12px;
+    margin: 16px;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.blue {
+    color: #66B9B8;
+}
+
+#input-card {
+    width: 360px;
+}
+
+#result-card {
+    width: 360px;
+}
+
+  
