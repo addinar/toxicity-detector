@@ -8,7 +8,7 @@ export default function ResultCard( {result, onNewInput} ) {
     const labelKeys = ['Toxic', 'Severe', 'Obscene', 'Threat', 'Insult',
     'Identity Attack', 'Sexually Explicit'];
 
-    console.log("Score: " + result.score);
+    console.log("Score: " + result.aggregate_score);
 
     return (
         <div id="result-card">

@@ -28,9 +28,9 @@ class Detector:
         return prediction
     
     def determine_action(self, result):
-        flag_threshold = 3
-        warn_threshold = 6
-        ban_threshold = 9
+        flag_threshold = 0.5
+        warn_threshold = 1
+        ban_threshold = 2
 
         weights = np.array([1, 2, 1.5, 3, 1.2, 2.5, 3])
 

@@ -26,7 +26,17 @@ function App() {
       </main>
 
       <footer>
-        <p className="semibold footer-text">Detections are experimental. Use with disrection. | Made with Transformers + Torch + React + Flask | Github </p>
+        <p className="semibold footer-text">
+          Detections are experimental. Use with disrection. | Made with Transformers + Torch + React + Flask |
+          <a
+    href="https://github.com/addinar/toxicity-detector"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: '#78CDD7', marginLeft: '5px' }}
+  >
+    GitHub
+  </a> 
+        </p>
       </footer>
     </div>
   );
