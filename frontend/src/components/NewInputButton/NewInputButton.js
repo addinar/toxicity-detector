@@ -1,9 +1,9 @@
 import './NewInputButton.css'
 
-export default function NewInputButton() {
+export default function NewInputButton({ onClick }) {
     return (
         <div>
-            <button className="new-input">New Input</button>
+            <button className="new-input" onClick={onClick}>New Input</button>
         </div>
     )
 };

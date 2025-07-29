@@ -1,11 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Container from './components/Container/Container.js';
-import UploadButton from './components/UploadButton/UploadButton.js';
+import React, { useState } from 'react';
 import InputCard from './cards/InputCard.js';
 import ResultCard from './cards/ResultCard.js';
 
 function App() {
+  const [result, setResult] = useState(null);
+
+  const handleNewInput = () => {
+    setResult(null);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -13,8 +17,12 @@ function App() {
       </header>
 
       <main className="main-container">
-        <InputCard />
-        <ResultCard />
+        {(result) ? (
+            <ResultCard result={result} onNewInput={handleNewInput}/>
+          ) : (
+            <InputCard onResult={setResult}/>
+          )
+        }
       </main>
 
       <footer>

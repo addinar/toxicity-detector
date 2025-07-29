@@ -1,0 +1,38 @@
+.bar-loader {
+    display: flex;
+    gap: 6px;
+    align-items: end;
+    justify-content: center;
+    height: 40px;
+}
+
+.bar-comp {
+    width: 8px;
+    background-color: #78CDD7;
+    border-radius: 2px;
+    animation: bounce 1.0s infinite ease-in-out;
+}
+
+.bar1 {
+    height: 16px;
+    animation-delay: 0s;
+}
+  
+.bar2 {
+    height: 12px;
+    animation-delay: 0.2s;
+}
+  
+.bar3 {
+    height: 10px;
+    animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(1.8);
+    }
+}

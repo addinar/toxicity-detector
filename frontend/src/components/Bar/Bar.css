@@ -4,6 +4,7 @@
     justify-content: space-between;
     gap: 10px;
     width: 290px;
+    margin: 7px;
 }
 
 
@@ -19,8 +20,6 @@
     background-color: #EBEBEB;
     height: 7px;
     border-radius: 25px;
-    overflow: hidden;
-    position: relative;
     margin-top: 5px;
 }
 
@@ -29,4 +28,13 @@
     height: 100%;
     border-radius: 25px;
     transition: width 0.5s ease;
+}
+
+@keyframes growWidth {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%; /* ignored — overridden inline */
+    }
 }

@@ -4,15 +4,22 @@ import Bar from '../components/Bar/Bar.js'
 import Action from '../components/Action/Action.js'
 import NewInputButton from '../components/NewInputButton/NewInputButton.js';
 
-export default function ResultCard() {
+export default function ResultCard( {result, onNewInput} ) {
+    const labelKeys = ['Toxic', 'Severe', 'Obscene', 'Threat', 'Insult',
+    'Identity Attack', 'Sexually Explicit'];
+
+    console.log("Score: " + result.score);
+
     return (
         <div id="result-card">
             <Container>
                 <p className="medium blue">Results</p>
-                <Bar label="Toxic" value={40} />
-                <Action action="Warn" />
+                {
+                    labelKeys.map((label) => <Bar key={label} label={label} value={Math.round(result[label] * 1000) / 10} />)
+                }
+                <Action action={result.action} />
             </Container>
-            <NewInputButton />
+            <NewInputButton onClick={onNewInput}/>
         </div>
     )
 };
