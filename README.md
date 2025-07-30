@@ -1,5 +1,7 @@
 # toxicity-detector
 
+![Demo UI](frontend/public/assets/demo.gif)
+
 ## **Description**
 
 This project is a simple NLP toxic comment detector coupled with an user-friendly interface. The machine learning model itself uses the pre-trained transformer model [DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased), and is further enhanced with [this dataset](https://huggingface.co/datasets/Koushim/processed-jigsaw-toxic-comments) using Torch. 
