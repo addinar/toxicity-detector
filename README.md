@@ -19,9 +19,10 @@ ML: DistilBERT transformers model which uses transfer learning and further train
 ![Diagram 2](frontend/public/assets/diagram-3.png)
 
 ## **Installation**
-Make sure you have Python3 and node installed
-If not already, have `tesseract` and `git-lfs` installed 
-	macOS instructions:
+Make sure you have Python3 and node installed.
+If not already, have `tesseract` and `git-lfs` installed.
+
+macOS instructions:
 ```
 brew install tesseract
 brew install git-lfs
@@ -31,7 +32,8 @@ Clone the repository:
 ```
 git clone https://github.com/addinar/toxicity-detector.git
 ```
-Install dependencies and activate virtual environment for backend
+Install dependencies and activate virtual environment for backend.
+
 macOS instructions:
 ```
 cd backend
@@ -41,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 ## **Running the Application**
-Open a double terminal
+Open a double terminal.
 On one terminal:
 ```
 cd backend
