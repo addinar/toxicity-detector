@@ -32,7 +32,7 @@ function App() {
     href="https://github.com/addinar/toxicity-detector"
     target="_blank"
     rel="noopener noreferrer"
-    style={{ color: '#78CDD7', marginLeft: '5px' }}
+    style={{ color: 'white', marginLeft: '5px' }}
   >
     GitHub
   </a> 
