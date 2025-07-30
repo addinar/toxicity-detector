@@ -14,9 +14,9 @@ Backend: Powered using Flask server
 ML: DistilBERT transformers model which uses transfer learning and further trained using Torch on 20,000 comments. Trained on [Google Colab](https://colab.research.google.com/drive/1gfbBc1hSW60OOB7IIjpzwmpEYMBt-PlH?usp=sharing).
 
 ## **How It Works**
-[Diagram 1](frontend/public/assets/diagram-1.jpeg)
-[Diagram 2](frontend/public/assets/diagram-2.png)
-[Diagram 2](frontend/public/assets/diagram-3.png)
+![Diagram 1](frontend/public/assets/diagram-1.jpeg)
+![Diagram 2](frontend/public/assets/diagram-2.png)
+![Diagram 2](frontend/public/assets/diagram-3.png)
 
 ## **Installation**
 Make sure you have Python3 and node installed
