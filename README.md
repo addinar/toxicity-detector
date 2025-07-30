@@ -51,6 +51,7 @@ python app.py
 ```
 On the other terminal:
 ```
+cd frontend
 npm run dev
 ```
 ## Lisence
