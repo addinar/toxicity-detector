@@ -1,7 +1,5 @@
 # toxicity-detector
 
-Simple NLP model interface that analyzes toxicity in texts and images of text.
-
 ![Demo UI](frontend/public/assets/demo.gif)
 
 ## **Description**
