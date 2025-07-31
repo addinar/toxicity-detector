@@ -14,12 +14,15 @@ Backend: Powered using Flask server
 ML: DistilBERT transformers model which uses transfer learning and further trained using Torch on 20,000 comments. Trained on [Google Colab](https://colab.research.google.com/drive/1gfbBc1hSW60OOB7IIjpzwmpEYMBt-PlH?usp=sharing).
 
 ## **How It Works**
-[Diagram 1]([https://imgur.com/a/oN24cRa](https://www.dropbox.com/scl/fi/8r3qgd7pxyoeh8z275vpr/Section-5.jpg?rlkey=9g5bc6moi7ogecnwju5fr4p46&st=oshe0ija&dl=1))
+![Diagram 1](frontend/public/assets/diagram-1.jpeg)
+![Diagram 2](frontend/public/assets/diagram-2.png)
+![Diagram 2](frontend/public/assets/diagram-3.png)
 
 ## **Installation**
-Make sure you have Python3 and node installed
-If not already, have `tesseract` and `git-lfs` installed 
-	macOS instructions:
+Make sure you have Python3 and node installed.
+If not already, have `tesseract` and `git-lfs` installed.
+
+macOS instructions:
 ```
 brew install tesseract
 brew install git-lfs
@@ -29,7 +32,8 @@ Clone the repository:
 ```
 git clone https://github.com/addinar/toxicity-detector.git
 ```
-Install dependencies and activate virtual environment for backend
+Install dependencies and activate virtual environment for backend.
+
 macOS instructions:
 ```
 cd backend
@@ -39,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 ## **Running the Application**
-Open a double terminal
+Open a double terminal.
 On one terminal:
 ```
 cd backend
@@ -47,6 +51,7 @@ python app.py
 ```
 On the other terminal:
 ```
+cd frontend
 npm run dev
 ```
 ## Lisence
