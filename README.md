@@ -4,14 +4,14 @@
 
 ## **Description**
 
-This project is a simple NLP toxic comment detector coupled with an user-friendly interface. The machine learning model itself uses the pre-trained transformer model [DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased), and is further enhanced with [this dataset](https://huggingface.co/datasets/Koushim/processed-jigsaw-toxic-comments) using Torch. 
+This project is a simple NLP toxic comment detector coupled with an user-friendly interface. The model itself uses transfer learning, taking [DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased), a well-known language modeling transformer, and is fine tuned into a regressor. The model was trained on [this dataset](https://huggingface.co/datasets/Koushim/processed-jigsaw-toxic-comments) using Torch.
 
 The project also explores simple CSS animations and was great practice for brushing up UI skills.
 
 ## **Tech Stack**
 Frontend: Created with React
 Backend: Powered using Flask server
-ML: DistilBERT transformers model which uses transfer learning and further trained using Torch on 20,000 comments. Trained on [Google Colab](https://colab.research.google.com/drive/1gfbBc1hSW60OOB7IIjpzwmpEYMBt-PlH?usp=sharing).
+ML: DistilBERT transformers model which uses transfer learning and further trained using Torch on 20,000 comments. Trained on Google Colab.
 
 ## **How It Works**
 ![Diagram 1](frontend/public/assets/diagram-1.jpeg)
