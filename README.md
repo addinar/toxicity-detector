@@ -4,7 +4,7 @@
 
 ## **Description**
 
-This project is a simple NLP toxic comment detector coupled with an user-friendly interface. The model itself uses transfer learning, taking [DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased), a well-known language modeling transformer, and is fine tuned into a regressor. The model was trained on [this dataset](https://huggingface.co/datasets/Koushim/processed-jigsaw-toxic-comments) using Torch. The model outputs a vector of 7 scores measuring 7 different variations of toxicity, which is further fit into the range of [0,1]. Weighted scores and threshold logic was used to determine a subsequent action of either flagging, warning, or banning. 
+This project is a simple NLP toxic comment detector coupled with an user-friendly interface. The model itself uses transfer learning, taking [DistilBERT](https://huggingface.co/distilbert/distilbert-base-uncased), a well-known language modeling transformer, and is fine tuned into a regressor. The model was trained on [this dataset](https://huggingface.co/datasets/Koushim/processed-jigsaw-toxic-comments) using Torch. The model outputs a vector of 7 scores measuring 7 different variations of toxicity, which is further fit into the range of [0,1]. Weighted scores and threshold logic was used to determine a subsequent action of either flagging, warning, or banning. User can also upload screenshots where text can be extracted using tesseract and inputted to the model.
 
 The project also explores simple CSS animations and was great practice for brushing up UI skills.
 
@@ -14,6 +14,8 @@ The project also explores simple CSS animations and was great practice for brush
 **Backend**: Powered using Flask server
 
 **ML**: Transfer learning with DistilBERT transformers model and a dataset of 20,000 comments using Torch. Trained on Google Colab.
+
+**Utilities**: Text from image extraction done using tesseract. 
 
 ## **How It Works**
 ![Diagram 1](frontend/public/assets/diagram-1.jpeg)
