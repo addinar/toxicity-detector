@@ -12,6 +12,7 @@ The project also explores simple CSS animations and was great practice for brush
 **Frontend**: Created with React
 
 **Backend**: Powered using Flask server
+
 **ML**: Transfer learning with DistilBERT transformers model and a dataset of 20,000 comments using Torch. Trained on Google Colab.
 
 ## **How It Works**
