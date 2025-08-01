@@ -13,7 +13,7 @@ The project also explores simple CSS animations and was great practice for brush
 
 **Backend**: Powered using Flask server
 
-**ML**: Transfer learning with DistilBERT transformers model and a dataset of 20,000 comments using Torch. Trained on Google Colab.
+**ML**: Transfer learning with DistilBERT transformers model and a dataset of 20,000 comments using Torch. Trained on [Google Colab](https://colab.research.google.com/drive/1gfbBc1hSW60OOB7IIjpzwmpEYMBt-PlH?usp=sharing).
 
 **Utilities**: Text from image extraction done using tesseract. 
 
