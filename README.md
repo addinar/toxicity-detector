@@ -9,9 +9,10 @@ This project is a simple NLP toxic comment detector coupled with an user-friendl
 The project also explores simple CSS animations and was great practice for brushing up UI skills.
 
 ## **Tech Stack**
-Frontend: Created with React
-Backend: Powered using Flask server
-ML: DistilBERT transformers model which uses transfer learning and further trained using Torch on 20,000 comments. Trained on Google Colab.
+**Frontend**: Created with React
+
+**Backend**: Powered using Flask server
+**ML**: Transfer learning with DistilBERT transformers model and a dataset of 20,000 comments using Torch. Trained on Google Colab.
 
 ## **How It Works**
 ![Diagram 1](frontend/public/assets/diagram-1.jpeg)
@@ -20,6 +21,7 @@ ML: DistilBERT transformers model which uses transfer learning and further train
 
 ## **Installation**
 Make sure you have Python3 and node installed.
+
 If not already, have `tesseract` and `git-lfs` installed.
 
 macOS instructions:
@@ -44,6 +46,7 @@ pip install -r requirements.txt
 
 ## **Running the Application**
 Open a double terminal.
+
 On one terminal:
 ```
 cd backend
